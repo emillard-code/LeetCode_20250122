@@ -7,14 +7,14 @@ public class LeetCodeAttempt {
     public static void main(String[] args) {
 
         int[][] isWater1 = new int[][]{{0,1},{0,0}};
-        System.out.println(Arrays.deepToString(MapOfHighestPeak(isWater1)));
+        System.out.println(Arrays.deepToString(mapOfHighestPeak(isWater1)));
 
         int[][] isWater2 = new int[][]{{0,0,1},{1,0,0},{0,0,0}};
-        System.out.println(Arrays.deepToString(MapOfHighestPeak(isWater2)));
+        System.out.println(Arrays.deepToString(mapOfHighestPeak(isWater2)));
 
     }
 
-    public static int[][] MapOfHighestPeak(int[][] isWater) {
+    public static int[][] mapOfHighestPeak(int[][] isWater) {
 
         int[][] height = new int[isWater.length][isWater[0].length];
 
